@@ -1,0 +1,28 @@
+.box {
+    background-color: #cf4646;
+    height: 200px;
+    padding: 5px;
+    transition: 105ms ease-in-out;
+}
+
+.box:hover {
+    filter: brightness(110%);
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.box-green {
+    background-color: #00b894;
+}
+
+.table td, table th {
+    cursor: pointer;
+}
+
+.table tr:hover {
+    background-color: #97d3c7;
+}
+
+.modalExample {
+    height: 500px!important;
+}
