@@ -1,0 +1,36 @@
+
+$primary: #9b4aac;
+$secondary: #38393d;
+
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 60%;
+    }
+}
+
+.bootspan {
+    color: $pink-500;
+}
+
+body::before {
+    content: "";
+    display: block;
+    height: 60px;
+}
+
+#instructors .card img {
+    transition: 80ms ease-in-out;
+}
+
+#instructors .card:hover img {
+
+    filter: saturate(1.4);
+    transform: scale(1.05);
+}
+
+#google-map {
+    border-radius: 16px;
+}
